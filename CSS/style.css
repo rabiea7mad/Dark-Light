@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+
+    height: 100vh;
+
+}
+button{
+    background-color: white;
+    border: none;
+    cursor: pointer;   
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom:30px ;
+
+    /* position: relative;
+    left: 730px; */
+    transition: all 0.8s;
+    font-family: Montserrat-Arabic;
+  
+    }
+
+
+
+    /* .top{
+        text-align: center;
+
+    } */
+
+    .maindiv{
+        width: 500px;
+        height: 450px;
+        padding: 20px;
+        border-radius: 40px;
+        border: 0.5px solid;
+        transition: all 0.8s;
+        text-align: center;
+        margin: auto;
+    }
+
+    .maindiv h2{
+        font-size: 35px;
+        line-height: 50px;
+
+    }
+    @media(max-width : 750px){
+        .maindiv{
+            margin-top: 110px;
+            margin-bottom: 20px;
+            max-width: 80%;
+            height: auto;
+        }
+    }
+
+
+    .dark{
+        background-color: black;
+        color: white;
+    }
+
+    .btnlight{
+        color: rgb(255, 225, 0);
+        background-color:white;
+    }
+    .btndark{
+        color: rgb(0, 0, 0);
+        background-color:rgb(255, 255, 255);
+    }
+
+    .btn2{
+
+        font-size: 20px;
+        border: 1 solid rgb(5, 0, 0);
+        background-color: rgb(128, 144, 247);
+        border-radius: 25px;
+        height: 50px;
+        width: 140px;
+        color: white;
+        margin-left: 10px;
+    }
+    .btn2:hover{
+        background-color: rgb(41, 77, 77);
+        color: rgb(255, 255, 255);
+    }
+
+
+
+
+.handel{
+    text-align: center;
+    max-width: 50%;
+    /* background-color: red; */
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+@media(max-width:750px){
+    .handel{
+        max-width: 70%;
+        height: 70px;
+       margin-top: 15px;
+    }
+}
+
+label{
+    font-family: Montserrat-Arabic;
+}
+input{
+    cursor: pointer;
+}
